@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Raleway:wght@300&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Raleway:wght@300&family=Rubik:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt&display=swap');
+
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background: url('hands-digital-universe-background.jpg');
+        background-size: cover;
+		background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center center;
+    }
+#navcont
+{
+
+margin-left:0px !important;
+}
+
+.dropdown-menu
+{ 	width:20px;
+	color:black !important;
+	margin-left:0px !important;
+}
+#navbarDropdownMenuLink{
+	width:110px;
+}
+	#link
+{
+color:white ;
+display:flex;
+justify-content:center;
+text-decoration:none;
+}
+.link{
+	display:flex;
+justify-content:center;
+}
+	#reserved{
+			display:flex;
+justify-content:center;
+}
+
+}
+#links
+{
+color:white ;
+list-style-type: none !important ;
+  margin: 0;
+  padding: 0;
+}
+#link
+{
+color:white ;
+display:flex;
+align-items:start;
+text-decoration:none;
+}
+.link{
+	display:flex;
+align-items:center;
+}
+#link:hover{
+color:grey;
+text-decoration:underline;
+
+}
+.eff
+{
+font-family: 'Rubik', sans-serif;
+}
+.eff:hover
+{
+	background:white;
+	color:black !important;
+	box-shadow:0 0 5px #FFFFFF,0 0 20px #FFFFFF ;
+}
+.followlink
+{
+list-style-type: none !important ;
+  margin: 0;
+  padding: 0;
+
+}
+/*#foothead
+{
+	border-bottom-color:white;
+	border-bottom-style:solid;
+}*/
+#reserved
+{
+	background-color:black;
+	overflow:hidden !important;
+
+}
+#nav
+{	
+  
+	background-color:	rgba(255,255,255,0) !important;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+
+}
+#navcont
+{
+
+margin-left:760px !important;
+}
+ #btn
+{
+
+font-family: 'Rubik', sans-serif;
+}
+#btn:hover
+{
+	background-color: white !important;
+	color:black !important;
+	box-shadow:0 0 5px #FFFFFF,0 0 20px#FFFFFF ;
+}
+body{
+    font-family: sans-serif;
+    color: #737789;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+    background: #ebebeb;
+}
+
+
+.title{
+    margin-top: -50px;
+    margin-bottom: 90px;
+}
+
+.title h3{
+    font-size: 35px;
+}
+
+.team-one{
+    padding-top: 120px;
+    padding-bottom: 90px;
+    position: relative;
+}
+
+
+[class*=bg-shape-]{
+    position: absolute;
+}
+
+
+.single{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 60px 0px rgba(46,61,98,0.1);
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 57px;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 500ms ease;
+
+}
+
+.single:hover{
+    transform: scaleY(1.20);
+}
+
+
+.inner{
+    transform-origin: top;
+    transition: transform 500ms ease;
+    transform: scaleY(1);
+}
+
+
+.single:hover .inner{
+    transform: scaleY(0.8);
+}
+
+
+.image{
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    transition: all 500ms ease;
+}
+
+.single:hover .image{
+    border: 5px solid white;
+}
+
+
+
+.social{
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 11;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease;
+}
+
+
+
+.single:hover .social{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.social>a{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    opacity: 0.3;
+    transition: all 500ms ease;
+}
+
+.single:hover p,
+.single:hover h3{
+    color: white;
+}
+
+
+
+.social>a i{
+    color: #737789;
+    transition: all 500ms ease;
+    font-size: 16px;
+
+}
+
+
+.social>a:hover{
+    opacity: 1;
+}
+
+.social>a:hover i{
+    color: #fd632f;
+}
+
+
+.social a+a{
+    margin-left: 10px;
+}
+
+
+.circle::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 153px;
+    height: 117px;
+    content: '';
+    background-image: url(team-circle-1-1.png);
+    transform: perspective(200px) scaleX(0) scaleY(0);
+    transition: transform 500ms ease, opacity 500ms ease;
+    opacity: 0;
+    transform-origin: right top;
+}
+
+
+.circle::after{
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 140px;
+    height: 156px;
+    content: '';
+    background-image: url(team-circle-1-2.png);
+    transform: perspective(150px) scaleX(0) scaleY(0);
+    transition: transform 500ms ease, opacity 500ms ease;
+    opacity: 0;
+    transform-origin: let bottom;
+}
+
+
+.single:hover .circle::before,
+.single:hover .circle::after{
+    opacity: 0.3;
+    transform: perspective(200px) scaleX(1) scaleY(0.8);
+}
+
+
+.single::before{
+    content: '';
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, hotpink 0%, #34495e 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(1,0);
+    transform-origin: bottom;
+    transition: transform 500ms ease;
+
+}
+
+
+.single:hover::before{
+    transform: scale(1,1);
+    transform-origin: top;
+}

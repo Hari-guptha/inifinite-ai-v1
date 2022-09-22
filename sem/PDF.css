@@ -1,0 +1,2388 @@
+body{
+    background-color: black;
+    background-image: url(dddd.png) !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#nav
+{	
+  
+	background-color:	rgba(255,255,255,0) !important;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.2);
+  border-left: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+
+}
+#navcont
+{
+margin-left:760px !important;
+}
+
+.dropdown-menu
+{
+    
+	color:white !important;
+	margin-left:980px !important;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG {
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 769px) {
+    #videoBG {
+        display: none;
+    }
+    body {
+        background-color: black;
+       
+    }
+#navcont
+{
+
+margin-left:0px !important;
+}
+
+.dropdown-menu
+{ 	width:20px;
+	color:black !important;
+	margin-left:0px !important;
+}
+#navbarDropdownMenuLink{
+	width:110px;
+}
+	#link
+{
+color:white ;
+display:flex;
+justify-content:center;
+text-decoration:none;
+}
+.link{
+	display:flex;
+justify-content:center;
+}
+	#reserved{
+			display:flex;
+justify-content:center;
+}
+		
+}
+
+
+/*for removing underline*/
+#io
+{
+    
+    text-decoration: none;
+}
+
+
+/*card1 glow*/
+
+
+
+
+.gard1:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard1
+{
+    
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+
+
+    
+    transform: translateX(10%);
+    color: white;
+    background: white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+    animation: animate;
+            animation-duration: 4s;
+            
+            background-repeat: repeat-x;
+            animation-iteration-count: infinite;
+}
+@keyframes animate
+{
+  
+  0%
+   {
+       
+       background-position:  0 100px;
+   }
+   10%
+   {
+       
+       background-position:  0 100px;
+   }
+   40%
+   {
+    
+       background-position:  1000px -10px;
+   }
+   80%
+   {
+   
+       background-position:  2500px -20px;
+   }
+   100%
+   {
+    
+       background-position:  2500px -80px;
+   }
+
+
+}
+
+
+
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard1:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard1:hover .lightbar1
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2s linear infinite;
+}
+@keyframes animatelightbar1
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+     left: 100%; 
+     height: 100px;  
+    }
+}
+
+
+/*media query for card1  for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard1
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard1 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard1:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard1:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard1:hover .lightbar1
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar1 1s linear infinite;
+    }
+    @keyframes animatelightbar1
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left:97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 1 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard1
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard1 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard1:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard1:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard1:hover .lightbar1
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar1 1s linear infinite;
+    }
+    @keyframes animatelightbar1
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        
+        }
+        to {
+            left: 100%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard1
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard1 h1
+{
+    font-size: 1.2em;
+}
+    .gard1:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard1:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1.2em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard1:hover .lightbar1
+    {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar1 1s linear infinite;
+    }
+    @keyframes animatelightbar1
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+
+/*card2*/
+.gard2:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard2
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard2:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard2:hover .lightbar2
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar2
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 100%; 
+     height: 100px;  
+    }
+}
+
+/*media query for card2 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard2
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard2 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard2:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard2:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard2:hover .lightbar2
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar2 2s linear infinite;
+    }
+    @keyframes animatelightbar2
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 98%; 
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 2 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard2
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard2 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard2:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard2:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard2:hover .lightbar2
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar2 2s linear infinite;
+    }
+    @keyframes animatelightbar2
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard2
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard2 h1
+{
+    font-size: 1.1em;
+}
+    .gard2:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard2:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard2:hover .lightbar2
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar2 2s linear infinite;
+    }
+    @keyframes animatelightbar2
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+
+
+/*card 3*/
+.gard3:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard3
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+
+
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard3:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard3:hover .lightbar3
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar3
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 97%; 
+     height: 100px;  
+    }
+}
+
+/*media query for card3 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard3
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard3 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard3:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard3:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard3:hover .lightbar3
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar3 2s linear infinite;
+    }
+    @keyframes animatelightbar3
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%;  
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 3 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard3
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard3 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard3:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard3:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard3:hover .lightbar3
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar3 2s linear infinite;
+    }
+    @keyframes animatelightbar3
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard3
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard3 h1
+{
+    font-size: 1.1em;
+}
+    .gard3:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard3:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard3:hover .lightbar3
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar3 2s linear infinite;
+    }
+    @keyframes animatelightbar3
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+/*
+
+
+/*card4*/
+
+.gard4:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard4
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard4:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard4:hover .lightbar4
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar4
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 97%;  
+     height: 100px;  
+    }
+}
+
+/*media query for card4 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard4
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard4 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard4:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard4:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard4:hover .lightbar4
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar4 2s linear infinite;
+    }
+    @keyframes animatelightbar4
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%;  
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 4 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard4
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard4 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard4:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard4:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard4:hover .lightbar4
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar4 2s linear infinite;
+    }
+    @keyframes animatelightbar4
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard4
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard4 h1
+{
+    font-size: 1.1em;
+}
+    .gard4:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard4:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard4:hover .lightbar4
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar4 2s linear infinite;
+    }
+    @keyframes animatelightbar4
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+
+/*5th card*/
+
+.gard5:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard5
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard5:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard5:hover .lightbar5
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar5
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 97%; 
+     height: 100px;  
+    }
+}
+
+
+/*media query for card5 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard5
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard5 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard5:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard5:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard5:hover .lightbar5
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar5 2s linear infinite;
+    }
+    @keyframes animatelightbar5
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 5 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard5
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard5 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard5:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard5:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard5:hover .lightbar5
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar5 2s linear infinite;
+    }
+    @keyframes animatelightbar5
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard5
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard5 h1
+{
+    font-size: 1.1em;
+}
+    .gard5:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard5:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard5:hover .lightbar5
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar5 2s linear infinite;
+    }
+    @keyframes animatelightbar5
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%;  
+         height: 60px;  
+        }
+    }
+}
+
+
+/*6th card*/
+
+.gard6:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard6
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard6:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard6:hover .lightbar6
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar6
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 97%; 
+     height: 100px;  
+    }
+}
+
+/*media query for card6 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard6
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard6 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard6:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard6:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard6:hover .lightbar6
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar6 2s linear infinite;
+    }
+    @keyframes animatelightbar6
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 6 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard6
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard6 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard6:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard6:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard6:hover .lightbar6
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar6 2s linear infinite;
+    }
+    @keyframes animatelightbar6
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard6
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard6 h1
+{
+    font-size: 1.1em;
+}
+    .gard6:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard6:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard6:hover .lightbar6
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar6 2s linear infinite;
+    }
+    @keyframes animatelightbar6
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+
+
+/*7th card*/
+.gard7:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard7
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard7:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard7:hover .lightbar7
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar7
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 97%; 
+     height: 100px;  
+    }
+}
+
+/*media query for card7 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard7
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard7 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard2:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard7:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard7:hover .lightbar7
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar7 2s linear infinite;
+    }
+    @keyframes animatelightbar7
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to { left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 7 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard7
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard7 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard7:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard7:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard7:hover .lightbar7
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar7 2s linear infinite;
+    }
+    @keyframes animatelightbar7
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard7
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard7 h1
+{
+    font-size: 1.1em;
+}
+    .gard7:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard7:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard7:hover .lightbar7
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar7 2s linear infinite;
+    }
+    @keyframes animatelightbar7
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+
+/*8th card*/
+
+.gard8:hover {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.gard8
+{
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(10px) !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+    border-left: 1px solid rgba(255,255,255,0.2) !important;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2) !important;
+    transform: translateX(10%);
+    color: white;
+    background-color:white;
+    width: 37%;
+    height: 100px;
+    padding-top: 30px;
+    padding-left:50px ;
+}
+
+h1
+{
+    font-weight: 300;
+    font-size: 2.4em;
+}
+
+.gard8:hover h1{
+    color: white;
+    padding-left: 10px;
+    font-size: 2.4em;
+    letter-spacing: 0.1;
+    font-weight: 600;
+    text-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+}
+.gard8:hover .lightbar8
+{
+    position: absolute;
+    top: 0px;
+    height: 100px;
+    width: 1%;
+    box-shadow: 0 0 10px #00b3ff,
+    0 0 20px #00b3ff,
+    0 0 40px #00b3ff,
+    0 0 80px #00b3ff,
+    0 0 120px #00b3ff;
+    background-color: white;
+    z-index: 2;
+    animation: animatelightbar1 2.2s linear infinite;
+}
+@keyframes animatelightbar8
+{
+    from
+    {
+        left: 0px;
+        height: 100px;
+    }
+    to {
+        left: 97%;  
+     height: 100px;  
+    }
+}
+
+/*media query for card8 for the pxel ramge for 278 to 325*/
+@media  (min-width:278px) and (max-width:325px) 
+{
+    .gard8
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard8 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard8:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard8:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard8:hover .lightbar8
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar8 2s linear infinite;
+    }
+    @keyframes animatelightbar8
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/*media query for card 8 for the pixel range 325 to 370*/
+@media  (min-width:327px) and (max-width:370px) 
+{
+    .gard8
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:9px !important;
+}
+.gard8 h1
+{
+    font-size: 0.9em !important;
+}
+    .gard8:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard8:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard8:hover .lightbar8
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar8 2.2s linear infinite;
+    }
+    @keyframes animatelightbar8
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+/* media query for the pixel range 374px and 415px*/
+@media only screen and (min-width:374px) and (max-width:415px) 
+{
+    .gard8
+{
+    transform: translateX(61%);
+    color: white;
+    background-color:white;
+    width: 47%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left:10px ;
+}
+.gard8 h1
+{
+    font-size: 1.1em;
+}
+    .gard8:hover {
+        width: 47%;
+        height: 60px;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(10px);
+        border-top: 1px solid rgba(255,255,255,0.2);
+        border-left: 1px solid rgba(255,255,255,0.2);
+        box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+    }
+    .gard8:hover h1{
+        color: white;
+        padding-top: 0px;
+    padding-left:0px;
+        font-size: 1em;
+        letter-spacing: 0.1;
+        font-weight: 600;
+        text-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+    }
+    .gard8:hover .lightbar8
+    {
+        position: absolute;
+        top: 0px;
+        height: 60%;
+        width: 1%;
+        box-shadow: 0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff;
+        background-color: white;
+        z-index: 2;
+        animation: animatelightbar8 2s linear infinite;
+    }
+    @keyframes animatelightbar8
+    {
+        from
+        {
+            left: 0px;
+            height: 60px;
+        }
+        to {
+            left: 97%; 
+         height: 60px;  
+        }
+    }
+}
+
+
+/*footer*/
+#links
+{
+color:white ;
+list-style-type: none !important ;
+  margin: 0;
+  padding: 0;
+}
+#link
+{
+color:white ;
+display:flex;
+align-items:start;
+text-decoration:none;
+}
+.link{
+	display:flex;
+align-items:center;
+}
+#link:hover{
+color:grey;
+text-decoration:underline;
+
+}
+.followlink
+{
+list-style-type: none !important ;
+  margin: 0;
+  padding: 0;
+}
+#reserved
+{
+	background-color:black;
+	overflow:hidden !important;
+	
+}

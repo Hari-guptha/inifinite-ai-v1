@@ -1,0 +1,257 @@
+/*
+Whole page background*/
+body{
+  
+    background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,30,121,1) 82%, rgba(0,212,255,1) 100%);
+  }
+  .login-dark {
+    height:1000px;
+    background-image: url(login3.jpg);
+    background-size:cover;
+    position:relative;
+  }
+  /*
+  Form backgrond*/
+   .login-dark form {
+    max-width:320px;
+    width:90%;
+    background-color:white;
+    padding:40px;
+    border-radius:20px;
+    transform:translate(-50%, -50%);
+    position:absolute;
+    top:40%;
+    left:50%;
+    color:white;
+    /*Glassmorphism*/
+    background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(255,255,255,0.2);
+      border-left: 1px solid rgba(255,255,255,0.2);
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+  }
+  /*
+  Lock icon */
+  .login-dark .illustration {
+    text-align:center;
+    padding:15px 0 20px;
+    font-size:100px;
+    color:#1f9132;
+    
+  }
+  /* form elements*/
+  .login-dark form .form-control {
+    background:none;
+    border:none;
+    border-bottom:2px solid #29ef93;
+    border-radius:0px;
+    box-shadow:none;
+    color: #29ef93;
+    
+  }
+  /*login button*/
+  .login-dark form .btn-primary {
+    background:#1f9132;
+    border:none;
+    border-radius:4px;
+    padding:11px;
+    box-shadow:none;
+    margin-top:16px;
+    text-shadow:none;
+    outline:none;
+  }
+  /* button when clicked*/
+  .login-dark form .btn-primary:active {
+    background:#1dcf58;
+    outline:none;
+  }
+  /* button during hover*/
+  .login-dark form .btn-primary:hover{
+    background:#1fd62f;
+    outline:none;
+    box-shadow:0 0 5px #1fd62f,0 0 20px #1fd62f ;
+  }
+  
+  .login-dark form .forgot {
+    display:block;
+    text-align:center;
+    font-size:12px;
+    color:#6f7a85;
+    opacity:0.9;
+    text-decoration:none;
+  }
+  
+  .login-dark form .forgot:hover, .login-dark form .forgot:active {
+    opacity:1;
+    text-decoration:none;
+  }
+  /*login button after clicking enlarges to 1px*/
+  .login-dark form .btn-primary:active {
+    transform:translateY(1px);
+  }
+  /*Navbar*/
+  #nav
+  {	
+    
+   
+   background-color: black;
+  
+  
+  }
+  
+  #navcont
+  {
+  margin-left:760px !important;
+  }
+  
+  
+  
+  
+  
+  /*.dropdown-menu
+  {
+      
+      color:white !important;
+      margin-left:980px !important;
+  }*/
+  @media (min-aspect-ratio: 16/9) {
+      #videoBG {
+          width:100%;
+          height: auto;
+      }
+  }
+  @media (max-aspect-ratio: 16/9) {
+      #videoBG {
+          width:auto;
+          height: 100%;
+      }
+  }
+  @media (max-width: 769px) {
+      #videoBG {
+          display: none;
+      }
+      body {
+          background-color: black;
+          /*background: url('hands-digital-universe-background.jpg');
+          background-size: cover;
+          background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center center;*/
+      }
+  #navcont
+  {
+  
+  margin-left:0px !important;
+  }
+  
+  
+  
+  
+  /*.dropdown-menu
+  { 	width:20px;
+      color:black !important;
+      margin-left:0px !important;
+  }
+  #navbarDropdownMenuLink{
+      width:110px;
+  }*/
+      #link
+  {
+  color:white ;
+  display:flex;
+  justify-content:center;
+  text-decoration:none;
+  }
+  .link{
+      display:flex;
+  justify-content:center;
+  }
+      #reserved{
+              display:flex;
+  justify-content:center;
+  }
+          
+  }
+  .btn:hover{
+    background-color: white;
+    color: black !important;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:  white  !important;
+    opacity: 1  !important; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  white  !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white  !important;
+  }
+  #forgotpassword{
+    color: white;
+  }
+  #forgotpassword:hover{
+  
+  color: #1dcf58;
+  }
+  #materials{
+    color: white;
+  }
+  #videos{
+    color: white;
+  }
+  #materials:hover{
+    color: #1dcf58;
+  }
+  #videos:hover{
+    color: #1dcf58;
+  }
+  #links
+  {
+  color:white ;
+  list-style-type: none !important ;
+    margin: 0;
+    padding: 0;
+  }
+  #link
+  {
+  color:white ;
+  display:flex;
+  align-items:start;
+  text-decoration:none;
+  }
+  .link{
+      display:flex;
+  align-items:center;
+  }
+  #link:hover{
+  color:grey;
+  text-decoration:underline;
+  
+  }
+  .followlink
+  {
+  list-style-type: none !important ;
+    margin: 0;
+    padding: 0;
+  }
+  /*#foothead
+  {
+      border-bottom-color:white;
+      border-bottom-style:solid;
+  }*/
+  #reserved
+  {
+      background-color:black;
+      overflow:hidden !important;
+      
+  }
+  #check
+  {
+    width: 30px;
+    height:20px;
+    border-radius: 50% !important;
+  
+  }

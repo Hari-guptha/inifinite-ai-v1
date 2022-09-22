@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">-->
+    <!--lock icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    
+    <div class="login-dark">
+        <header>
+            <nav class="navbar navbar-dark animated fadeInDown navbar-expand-lg  container-fluid" id="nav">
+        
+                <a href="#" class="navbar-brand "><img src="assets\img\logo.png" id="#logo" alt="logo of smvec ai"width="70" height="50">
+                </a>
+                <button class="navbar-toggler  " data-bs-toggle="collapse" data-bs-target="#navcontent" onclick="togglemenu()"><span class="navbar-toggler-icon white"></span></button>
+                
+                
+                <div class=" collapse navbar-collapse" id="navcontent">
+                <ul class="navbar-nav  ml-1 mb-2 mb-lg-0 "  id="navcont">
+                
+                
+                
+                <li class="nav-item">
+                <a href="#" class="btn rounded-pill text-white " >FEEDBACK</a>
+                </li>
+                <li class="nav-item active">
+                <a href="#" class="btn rounded-pill text-white ">PROFILE</a>
+                </li>
+                <!--academic-->
+                <!--<li class="nav-item dropdown-link">
+                <a class="nav-link dropdown-toggle btn rounded-pill text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">ACADEMIC</a>
+                <ul class="dropdown-menu  " aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                <a class="dropdown-item " id="materials" href="#">MATERIALS</a>
+                </li>
+                <li class="dropdown-divider ">
+                </li>
+                <li>
+                <a class="dropdown-item" id="videos" href="#">VIDEOS</a>
+                </li>
+                </ul>
+                
+                </li>-->
+                
+                
+                <li class="nav-item">
+                <a href="#" class="btn rounded-pill text-white">HOME</a>
+                </li>
+                
+                <li class="nav-item">
+                <a href="#" class="btn rounded-pill text-white"> TEAM</a>
+                </li>
+                </ul>
+                </div>
+                </nav>
+                </header>
+        <form  action="php/action" class="is-valid" method="POST">
+            <h2 class="sr-only">Login </h2>
+
+            <div class="illustration"><i class="icon ion-ios-locked-outline"></i></div>
+            <div class="form-group"><input class="form-control" type="text" name="Enrollment" placeholder="Enrollment Number"></div>
+            <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Log In</button></div><a id="forgotpassword" href="#" class="forgot">Forgot your password? Reset Now</a></form>
+    </div>
+    <footer class=" bg-dark   text-white text-lg-left	 text-center pt-5 pb-3">
+
+        <div class="container ">
+        <div class="row   text text-white text-lg-left">
+        <div  class="col-md-4 text-center col-lg-4 col-xl-4 text-left  mt-3 text-lg-left">
+         <h3 class="text-left text-warning " id="foothead">ABOUT</h3>
+         <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p>
+        </div>
+         <div  class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 ">
+         <h3 class="text-warning" id="foothead">CONTACT US </h3>
+       <ul class="followlink">
+       
+       <li class="">
+       <img src="facebook.png" width="40px"height="35px">   <label>FOLLOW US ON FACEBOOK</label>
+       
+       </li>
+       <br>
+                           <li class="">
+                           <img src="twitter.png" width="40px"height="35px">  <label>FOLLOW US ON TWITTER</label>
+                                   </li>
+                                   
+       <br>							
+       <li class="">
+       <img src="insta.png" width="45px"height="40px"><label>FOLLOW US ON Instagram</label>
+       </li>
+       <br>
+                           <li class="">
+                           <img src="linkedin-logo-png-1837.png" width="40px"height="35px"><label>FOLLOW US ON LINKED IN
+                                                   </label>
+                           </li>
+       </ul>
+        </div>
+        <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 " id="footflex">
+         <h3 class="link text-warning" id="foothead">USEFUL LINKS </h3>
+         <ul class="h5 text-lg-center ">
+         <li class=" pb-2 " id="links"> <a href="" id="link">HOME</a></li>
+         
+         <li class=" pb-2 " id="links"><a href="" id="link">TEAM</a> </li>
+         <li class=" pb-2" id="links"><a href="" id="link">PROFILE</a></li>
+         <li class=" pb-2" id="links"><a href="" id="link">ACADEMIC</a></li>
+         <li class=" pb-2" id="links"><a href="" id="link">LOGIN</a></li>
+         </ul>
+         </div>
+           </div>
+           </div>
+           
+       
+         
+         
+         
+         </footer>	
+         <div class="pt-2"  id="reserved">
+         <div class="col-lg-7 col-md-8" >
+        </pre><p class="text-white" style="margin-left:15px;"> © ALL RIGHTS RESERVED| <a href="" class="text-warning">TITANS</a></p>
+         </div>
+         </div >
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>

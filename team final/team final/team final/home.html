@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>AI&DS</title> 
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" />
+ 
+
+	<link rel="stylesheet" href="index.css">
+
+    
+    
+    
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <style>
+           body {
+	 font-family: 'Poppins', sans-serif;
+	color: #737789;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 400;
+    background: black;
+    
+   
+
+}
+
+       .title{
+           margin-top: -50px;
+           margin-bottom: 90px;
+       }
+
+       .title h3{
+           font-size: 35px;
+       }
+
+
+
+.team-one {
+	padding-top: 120px;
+	padding-bottom: 90px;
+	position: relative;
+}
+
+[class*=bg-shape-] {
+	position: absolute;
+}
+
+ .shape {
+	top: 35px;
+	left: 0;
+}
+
+.team-one .container {
+	position: relative;
+}
+
+.single {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.1);
+    text-align: center;
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 57px;
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 500ms ease;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.2);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+
+}
+.single:hover {
+	 transform: scaleY(1);
+}
+
+.inner {
+	 transform-origin: top;
+	 transition: transform 500ms ease;
+     transform: scaleY(1);
+}
+
+.single:hover .inner {
+	    transform: scaleY(.8);
+}
+ .inner:hover {
+	    transform: scaleY(1.5);
+}
+
+.image {
+border-color: red;
+}
+
+
+.single:hover  {
+	border: 5px solid white;
+}
+
+.single h3 {
+	margin: 0;
+	font-size: 25px;
+	font-weight: bold;
+	color: #252c4b;
+	line-height: 1em;
+	transition: all 500ms ease;
+}
+
+.single p {
+	color: #737789;
+	margin: 0;
+	line-height: 1em;
+	font-size: 14px;
+	margin-top: 12px;
+	margin-bottom: 44px;
+	transition: all 500ms ease;
+
+}
+
+.single:hover p,
+.single:hover h3 {
+	color: #fff;
+}
+
+.social {
+	position: absolute;
+	bottom: -70px;
+	left: 50%;
+    transform: translateX(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 11;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 500ms ease;
+
+}
+
+.single:hover .social {
+	opacity: 1;
+	visibility: visible;
+}
+
+.social>a {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.3;
+	transition: all 500ms ease;
+
+}
+
+.social>a i {
+	color: #737789;
+	transition: all 500ms ease;
+	font-size: 16px;
+    border: 2px solid white deepskyblue;
+}
+
+.social>a:hover {
+	opacity: 1;
+
+}
+
+.social>a:hover i {
+	color: #fd632f;
+}
+
+.social a+a {
+	margin-left: 10px;
+}
+
+.circle::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 153px;
+	height: 117px;
+	content: '';
+	background-image: url(team-circle-1-1.png);
+	transform: perspective(200px) scaleX(0) scaleY(0);
+   transition: transform 500ms ease, opacity 500ms ease;
+	opacity: 0;
+	transform-origin: right top;
+}
+
+.circle::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 140px;
+	height: 156px;
+	content: '';
+	background-image: url(team-circle-1-2.png);
+     transform: perspective(150px) scaleX(0) scaleY(0);
+     transition: transform 500ms ease, opacity 500ms ease;
+	opacity: 0;
+   transform-origin: left bottom;
+}
+
+.single:hover .circle::before,
+.single:hover .circle::after {
+	opacity: 0.3;
+	 transform: perspective(200px) scaleX(1) scaleY(.8);
+}
+
+
+.single::before {
+	content: '';
+	border-radius: 5px;
+	background-image: linear-gradient(90deg, hotpink  0%, #34495e 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+   transform: scale(1, 0);
+   transform-origin: bottom;
+	transition: transform 500ms ease;
+
+}
+
+.single:hover::before {
+
+	        transform: scale(1, 1);
+	        transform-origin: top;
+}
+
+       .inner{
+           position: relative;
+       }
+
+       a:hover{
+           text-decoration: none;
+       }
+       .vid
+{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:auto;
+	height:auto;
+	z-index:-1;
+	min-width:100%;
+	min-height:100%;
+	border-bottom-style: solid !important;
+border-color:#3232FF;
+border-width:2px;
+}
+
+
+
+    </style>
+
+
+
+
+</head>
+<body>
+<div class="main" >
+  
+
+<header class="header  ">
+  
+
+
+<nav class="navbar navbar-dark animated fadeInDown navbar-expand-lg  container-fluid" id="nav">
+
+<a href="#" class="navbar-brand "><img src="Asset 4.png" id="#logo" alt="logo of smvec ai"width="120" height="70">
+</a>
+<button class="navbar-toggler  " data-bs-toggle="collapse" data-bs-target="#navcontent"><span class="navbar-toggler-icon white"></span></button>
+
+
+<div class=" collapse navbar-collapse" id="navcontent">
+<ul class="navbar-nav  ml-1 mb-2 mb-lg-0 "  id="navcont">
+
+
+
+<li class="nav-item">
+<a href="#" class="btn rounded-pill text-white " >FEEDBACK</a>
+</li>
+<li class="nav-item active">
+<a href="#" class="btn rounded-pill text-white ">PROFILE</a>
+</li>
+<!--academic-->
+<li class="nav-item dropdown-link">
+<a class="nav-link dropdown-toggle btn rounded-pill text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">ACADEMIC</a>
+<ul class="dropdown-menu  " aria-labelledby="navbarDropdownMenuLink">
+<li>
+<a class="dropdown-item " href="#">MATERIALS</a>
+</li>
+<li class="dropdown-divider ">
+</li>
+<li>
+<a class="dropdown-item" href="#">VIDEOS</a>
+</li>
+</ul>
+
+</li>
+
+
+<li class="nav-item">
+<a href="#" class="btn rounded-pill text-white">LOGIN</a>
+</li>
+
+<li class="nav-item">
+<a href="#" class="btn rounded-pill text-white"> TEAM</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class=row>
+    <div class="vid">
+    <video id="videoBG" autoplay loop class="vid col-lg-12 col-sm-12 col-md-12" muted plays-inline >
+    <source src="hi.mp4" type="video/mp4">
+    </video>
+    </div>
+</div>
+
+
+
+</header>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+
+
+
+
+<div class="back">
+    
+<section class="team-one" id="team">
+
+
+    <div class="container">
+        <div class="title text-center">
+            <p></p>
+            <h3>Meet Our Professional <br> Team Members</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single">
+                    <div class="circle"></div>
+                    <div class="inner">
+                        <h3>A.Hari Guptha</h3>
+                        <p>UI Designer</p>
+                        <div class="image">
+                            <img src="team2.png" alt="">
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.col-lg-3 col-md-6 col-sm-12 -->
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single">
+                    <div class="circle"></div>
+                    <div class="inner">
+                        <h3>R. GOKULPRASATH </h3>
+                        <p>HTML,CSS,JAVA SCRIPT</p>
+                        <div class="image">
+                            <img src="GOKUL.png" alt="">
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single">
+                    <div class="circle"></div>
+                    <div class="inner">
+                        <h3>S.RAGUL</h3>
+                        <p>Developer,HTML,JAVASCRIPT</p>
+                        <div class="image">
+                            <img src="NOLAN.png" alt="">
+                        </div>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </br>
+          </br>
+
+
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single">
+                    <div class="circle"></div>
+                    <div class="inner">
+                        <h3>AISWARYA. AV</h3>
+                        <p>Content Creator , HTML</p>
+                        <div class="image">
+                            <img src="AKKA.png" alt="">
+                        </div><!-- /.team-one__image -->
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="single">
+                    <div class="circle"></div>
+                    <div class="inner">
+                        <h3>C.GHAYATRI</h3>
+                        <p>Content Creator , HTML</p>
+                        <div class="image">
+                            <img src="GH.png" alt="">
+                        </div><!-- /.team-one__image -->
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook-square"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+</div>
+ 
+   
+   
+<footer class=" bg-dark   text-white text-lg-left	 text-center pt-5 pb-3">
+
+ <div class="container ">
+ <div class="row   text text-white text-lg-left">
+ <div  class="col-md-4 text-center col-lg-4 col-xl-4 text-left  mt-3 text-lg-left">
+  <h3 class="text-left text-warning " id="foothead">ABOUT</h3>
+  <p> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,</p>
+ </div>
+  <div  class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 ">
+  <h3 class="text-warning" id="foothead">CONTACT US </h3>
+<ul class="followlink">
+
+<li class="">
+<img src="facebook.png" width="40px"height="35px">   <label>FOLLOW US ON FACEBOOK</label>
+
+</li>
+<br>
+					<li class="">
+					<img src="twitter.png" width="40px"height="35px">  <label>FOLLOW US ON TWITTER</label>
+							</li>
+							
+<br>							
+<li class="">
+<img src="insta.png" width="45px"height="40px"><label>FOLLOW US ON Instagram</label>
+</li>
+<br>
+					<li class="">
+					<img src="linkedin-logo-png-1837.png" width="40px"height="35px"><label>FOLLOW US ON LINKED IN
+											</label>
+					</li>
+</ul>
+ </div>
+ <div  class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 " id="footflex">
+  <h3 class="link text-warning" id="foothead">USEFUL LINKS </h3>
+  <ul class="h5 text-lg-center ">
+  <li class=" pb-2 " id="links"> <a href="" id="link">HOME</a></li>
+  
+  <li class=" pb-2 " id="links"><a href="" id="link">TEAM</a> </li>
+  <li class=" pb-2" id="links"><a href="" id="link">PROFILE</a></li>
+  <li class=" pb-2" id="links"><a href="" id="link">ACADEMIC</a></li>
+  <li class=" pb-2" id="links"><a href="" id="link">LOGIN</a></li>
+  </ul>
+  </div>
+    </div>
+	</div>
+	
+
+  
+  
+  
+  </footer>	
+  <div class="pt-2"  id="reserved">
+  <div class="col-lg-7 col-md-8" >
+ </pre><p class="text-white" style="margin-left:15px;"> © ALL RIGHTS RESERVED| <a href="" class="text-warning">TITANS</a></p>
+  </div>
+  </div >
+  
+  
+  
+
+
+
+
+*/
+ </script>
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+          <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Template Javascript -->
+        <script src="js/main.js"></script>
+ </body>
+
+
+</html>
